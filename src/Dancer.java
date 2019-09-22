@@ -8,7 +8,7 @@ class Dancer {
 
     private final String SEX;
     private final int NAME;
-    private final String STYLES[];
+    private final String[] STYLES;
 
     Dancer(int id) {
         NAME = id;
@@ -49,7 +49,6 @@ class Dancer {
             case "Pop":
                 return dance(new String[]{"Pop dance"});
         }
-
         return dance;
     }
 
@@ -63,7 +62,6 @@ class Dancer {
             }
 
         }
-
         return dance;
     }
 
